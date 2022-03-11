@@ -1,7 +1,7 @@
 [
     {
-        "display":"Raw Fishes",
-        "value":"rawFishes"
+        "display":"Raw Fish Slices",
+        "value":"raw-fishes"
     },
     {
         "display":"Salad",
@@ -9,7 +9,7 @@
     },
     {
         "display":"Fried Cuttlefish",
-        "value":"friedCuttlefish"
+        "value":"fried-cuttlefish"
     },
     {
         "display":"Peanuts",

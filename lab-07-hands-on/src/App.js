@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
 import BookingForm from './BookingForm'
 
 function App() {
   return (
-    <div className="App">
-      <BookingForm />      
-    </div>
+    <React.Fragment>
+      <h1>Make a reservation</h1>
+      <BookingForm />
+    </React.Fragment>      
   );
 }
 
