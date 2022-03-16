@@ -147,7 +147,7 @@ class TodoList extends React.Component {
             // check if the task that we are displaying
             // is being edited or not
 
-            if (this.state.taskIdBeingEdited != t.id) {
+            if (this.state.taskIdBeingEdited !== t.id) {
                 taskJSXs.push(this.renderNormalTask(t))
             } else {
                 taskJSXs.push(this.renderEditedTask(t))
@@ -161,11 +161,11 @@ class TodoList extends React.Component {
 
         return <React.Fragment>
             <h1>Todo List </h1>
-            <button onClick={()=>{
+            {/* <button onClick={()=>{
                 this.setState({
                     'foobar': 1
                 })
-            }}/>
+            }}/> */}
             <div>
                 <label>Name of Task:</label>
                 <input name="newTaskDescription" 
